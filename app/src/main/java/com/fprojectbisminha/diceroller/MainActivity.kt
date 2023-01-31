@@ -2,12 +2,9 @@ package com.fprojectbisminha.diceroller
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.widget.Button
 import android.widget.ImageView
-import android.widget.TextView
-import android.widget.Toast
-import com.fprojectbisminha.diceroller.databinding.ActivityMainBinding
+import com.example.android.diceroller.R
 import java.util.Random
 
 class MainActivity : AppCompatActivity() {
@@ -23,7 +20,7 @@ class MainActivity : AppCompatActivity() {
             rollDice()
         }
 
-        diceImage = findViewById(R.id.dice_img)
+        diceImage = findViewById(R.id.dice_image)
     }
 
     private fun rollDice() {
